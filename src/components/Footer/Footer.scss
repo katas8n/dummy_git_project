@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    background-color: #272727;
+    color: #eee;
+    font-size: 1.2rem;
+    padding: .6rem;
+    justify-content: center;
+    &-paginamtion{
+        padding: .6rem;
+    }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.main {
+    font-family: 'Lato', sans-serif;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__content-img {
+        height: 150px;
+    }
+
+    &__content-img__wrapper {
+    }
+    &__content-wrapper {
+        background-color: white;
+        width: 40%;
+        padding: 1.2rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &__content-manufacturer,
+    &__content-country {
+        font-weight: 1000;
+        font-size: 1.2rem;
+    }
+    &__content-desc {
+        background-color: rgba(135, 207, 235, 0.4);
+        padding: 0.5rem;
+    }
+    &__content-btns {
+        display: flex;
+        margin-left: 4rem;
+    }
+    .main-button {
+        margin: 0.5rem;
+        height: 4rem;
+        width: 4rem;
+    }
+    .main-button {
+        background-color: rgba(135, 207, 235, 0.4);
+    }
+    .fa-shopping-basket {
+        font-size: 1.4rem;
+    }
+    .fa-jedi-order {
+        font-size: 1.6rem;
+    }
+    &__content-price__wrapper {
+        display: flex;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+    &__content-btns__price-wrapper {
+        display: flex;
+        align-items: center;
+    }
+}
